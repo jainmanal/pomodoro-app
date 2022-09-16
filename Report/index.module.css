@@ -1,0 +1,104 @@
+.modal {
+  max-width: 37.5rem;
+  min-height: 100%;
+}
+
+.container {
+  padding: 1.75rem 1.25rem;
+  --tab-color: rgb(225, 155, 153);
+}
+
+.header {
+  border: 0.125rem solid var(--tab-color);
+  border-radius: 0.5rem;
+  display: flex;
+  margin: 1.75rem 0;
+}
+
+.tabItem {
+  padding: 0.5rem 0;
+  font-weight: 600;
+  width: 100%;
+  color: var(--tab-color);
+  background-color: transparent;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0;
+}
+
+.active {
+  background-color: var(--tab-color);
+  color: white;
+}
+
+.titleContainer {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  margin: 1.75rem 0;
+}
+
+.title {
+  font-size: 1.125rem;
+  color: rgb(87, 87, 87);
+  font-weight: 600;
+}
+
+.titleLine {
+  height: 0.0625rem;
+  display: flex;
+  flex-grow: 1;
+  background-color: rgb(240, 240, 240);
+  border: none;
+}
+
+.noData {
+  color: rgb(163, 163, 163);
+  font-size: 1rem;
+  text-align: left;
+  margin-top: 0.875rem;
+  margin-bottom: 1.75rem;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0.875rem;
+}
+
+.card {
+  padding: 1.125rem 0.875rem;
+  text-align: right;
+  background-color: rgb(248, 232, 231);
+  min-width: 7.5rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  position: relative;
+  color: rgb(213, 117, 114);
+}
+
+.cardIcon {
+  position: absolute;
+  top: 0.75rem;
+  left: 1.125rem;
+  opacity: 0.5;
+}
+
+.cardTitle {
+  font-size: 1.875rem;
+  font-weight: 600;
+  margin-bottom: 0.375rem;
+}
+
+.cardLabel {
+  font-size: 0.8125rem;
+  font-weight: 600;
+}
+
+.activity {
+  margin-bottom: 0.875rem;
+}
